@@ -9,6 +9,9 @@ import Buttons from './components/Social.vue'
     <div id="Menu">
       <Menu />
     </div>
+    <div id="pp">
+      <img src="./assets/pp.png" alt="photo"/>
+    </div>
     <div id="hello">
       <HelloWorld msg="Hello !"/>
     </div>
@@ -32,6 +35,16 @@ import Buttons from './components/Social.vue'
   margin-top: 0;
 }
 
+#pp img{
+  width: 35px;
+  height: 35px;
+  border-radius: 20%;
+  position: fixed;
+  display: flex;
+  margin-left: 10px;
+  margin-top: -50px;
+}
+
 @media screen and (max-width: 760px) {
   #Intrduction {
     text-align: center;
@@ -46,5 +59,14 @@ import Buttons from './components/Social.vue'
     margin-top: 0;
   }
 
+  #pp img{
+    width: 35px;
+    height: 35px;
+    border-radius: 20%;
+    position: fixed;
+    display: flex;
+    margin-left: 10px;
+    margin-top: -50px;
+  }
 }
 </style>

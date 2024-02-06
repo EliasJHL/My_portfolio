@@ -1,9 +1,9 @@
 <template>
   <div class="zone">
     <div class="hello">
-      <h2>About.</h2>
-      <h2>Project</h2>
-      <h2>Contact</h2>
+      <button>About.</button>
+      <button>Projects</button>
+      <button>Contact</button>
     </div>
   </div>
 </template>
@@ -21,15 +21,21 @@ export default {
   align-items: center;
 }
 
-.hello h2 {
+.hello button {
+  width: 90px;
+  height: 30px;
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(255, 255, 255, 0);
   font-family: Ubuntu, serif;
+  font-size: 20px;
   color: #ebecf3;
   transform: rotate(-90deg);
-  margin-top: 80px;
+  margin-top: 90px;
   transition: text-shadow 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-.hello h2:hover {
+.hello button:hover {
   color: crimson;
   text-shadow: 0 0 10px rgba(173, 0, 0, 0.85);
 }
