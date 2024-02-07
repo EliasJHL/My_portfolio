@@ -1,4 +1,5 @@
 <template>
+  <p class="title">My Projects.</p>
   <div id="Cards">
     <div class="project">
       <h1>my_printf</h1>
@@ -22,24 +23,21 @@ export default {
 </script>
 
 <style>
-#Cards {
-  border-radius: 8px;
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  justify-content: space-between;
-  animation: loop 2s linear infinite;
-  flex-wrap: wrap;
+.title {
+  font-family: Ubuntu, serif;
+  color: #ebecf3;
+  font-size: 40px;
+  font-weight: bold;
 }
 
-#Cards div {
+.project {
   position: relative;
-  background: #1a1a1a;
-  transition: all .2s;
+  background: #343434;
+  overflow: hidden;
   margin: 10px;
   border-radius: 8px;
   width: 25%;
-  min-width: 150px;
+  min-width: auto;
   max-width: 300px;
   height: 350px;
   display: flex;
@@ -58,9 +56,19 @@ export default {
 }
 
 #Cards div:hover {
-  background: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+  background: #2a2a2a;
   transform: scale(0.98);
-  box-shadow: 0 0 30px 1px rgba(0, 255, 117, 0.30);
+  box-shadow: 0 0 30px 1px rgba(255, 255, 255, 0.5);
+}
+
+#Cards {
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  animation: loop 2s linear infinite;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 600px) {

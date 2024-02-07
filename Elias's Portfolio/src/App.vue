@@ -7,7 +7,7 @@ import Cards from './components/content.vue'
 </script>
 
 <template>
-  <div id="cursor"></div>
+  <!---<div id="cursor"></div>--->
   <div id="Intrduction">
     <div id="Menu">
       <Menu />
