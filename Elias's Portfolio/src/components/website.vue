@@ -1,7 +1,7 @@
 <template>
   <div id="presentation">
     <p>
-      Epitech student passionate about Full Stack Development. Scroll down to learn more.</p>
+      Passionate about Full Stack Development. Scroll down to learn more.</p>
   </div>
 </template>
 
@@ -13,7 +13,7 @@ export default {
 
 <style>
 #presentation {
-  font-family: Lilita One,cursive;
+  font-family: Lilita One, cursive;
   text-align: center;
   margin: 40px auto;
   width: 50%;

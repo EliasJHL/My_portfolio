@@ -1,9 +1,9 @@
 <template>
   <div class="zone">
     <div class="hello">
-      <button class="clickable">About.</button>
-      <button class="clickable">Projects</button>
-      <button class="clickable">Contact</button>
+      <button class="clickable1">About.</button>
+      <button class="clickable2">Projects</button>
+      <button class="clickable3">Contact</button>
     </div>
   </div>
 </template>
@@ -35,12 +35,31 @@ export default {
   transition: text-shadow 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-.hello .clickable {
+.hello button {
   cursor: pointer;
 }
 
-.hello button:hover {
-  color: crimson;
+.clickable1:hover {
+  background-image: linear-gradient(43deg, #4158D0, #C850C0, #FFCC70);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-shadow: 0 0 15px rgba(173, 0, 0, 0.99);
+}
+
+.clickable2:hover {
+  background-image: linear-gradient(147deg, #FFE53B, #FF2525);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-shadow: 0 0 15px rgba(173, 0, 0, 0.99);
+}
+
+.clickable3:hover {
+  background-image: linear-gradient(132deg, #008dff, #00fdf6);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
   text-shadow: 0 0 15px rgba(173, 0, 0, 0.99);
 }
 

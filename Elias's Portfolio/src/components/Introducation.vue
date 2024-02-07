@@ -59,4 +59,11 @@ export default {
   from, to { border-color: #e0e0e0; }
   50% { border-color: transparent; }
 }
+
+@media (max-width: 600px) {
+  .custom-size {
+    font-size: 40px;
+    font-weight: bold;
+  }
+}
 </style>

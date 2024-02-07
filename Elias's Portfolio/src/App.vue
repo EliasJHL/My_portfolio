@@ -3,6 +3,7 @@ import HelloWorld from './components/Introducation.vue'
 import Menu from './components/Slidebar.vue'
 import Buttons from './components/Social.vue'
 import Content from './components/website.vue'
+import Cards from './components/content.vue'
 </script>
 
 <template>
@@ -25,10 +26,18 @@ import Content from './components/website.vue'
     <Content />
   </div>
   <hr>
+  <div id="ProjectsCards">
+    <Cards />
+  </div>
 </template>
 
 <style>
 #Intrduction {
+  text-align: center;
+  margin-left: 70px;
+}
+
+#ProjectsCards {
   text-align: center;
   margin-left: 70px;
 }
