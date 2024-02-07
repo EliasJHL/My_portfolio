@@ -1,9 +1,9 @@
 <template>
   <div class="zone">
     <div class="hello">
-      <button>About.</button>
-      <button>Projects</button>
-      <button>Contact</button>
+      <button class="clickable">About.</button>
+      <button class="clickable">Projects</button>
+      <button class="clickable">Contact</button>
     </div>
   </div>
 </template>
@@ -35,9 +35,13 @@ export default {
   transition: text-shadow 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
+.hello .clickable {
+  cursor: pointer;
+}
+
 .hello button:hover {
   color: crimson;
-  text-shadow: 0 0 10px rgba(173, 0, 0, 0.85);
+  text-shadow: 0 0 15px rgba(173, 0, 0, 0.99);
 }
 
 .zone {

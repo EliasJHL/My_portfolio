@@ -2,9 +2,11 @@
 import HelloWorld from './components/Introducation.vue'
 import Menu from './components/Slidebar.vue'
 import Buttons from './components/Social.vue'
+import Content from './components/website.vue'
 </script>
 
 <template>
+  <div id="cursor"></div>
   <div id="Intrduction">
     <div id="Menu">
       <Menu />
@@ -19,11 +21,21 @@ import Buttons from './components/Social.vue'
       <Buttons />
     </div>
   </div>
+  <div id="website">
+    <Content />
+  </div>
+  <hr>
 </template>
 
 <style>
 #Intrduction {
   text-align: center;
+  margin-left: 70px;
+}
+
+#website {
+  text-align: center;
+  margin-left: 70px;
 }
 
 #hello {
@@ -41,32 +53,24 @@ import Buttons from './components/Social.vue'
   border-radius: 20%;
   position: fixed;
   display: flex;
-  margin-left: 10px;
-  margin-top: -50px;
+  margin-left: -59px;
+  margin-top: -40px;
 }
 
-@media screen and (max-width: 760px) {
-  #Intrduction {
-    text-align: center;
-  }
+hr {
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  margin-top: 20px;
+}
 
-  #hello {
-    margin-top: 10vh;
-    margin-left: auto;
-  }
-
-  #Menu {
-    margin-top: 0;
-  }
-
-  #pp img{
-    width: 35px;
-    height: 35px;
-    border-radius: 20%;
-    position: fixed;
-    display: flex;
-    margin-left: 10px;
-    margin-top: -50px;
-  }
+#cursor {
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  opacity: 1;
+  box-shadow: 0 0 50px rgba(255, 255, 255, 1), 0 0 60px rgba(255, 255, 255, 1), 0 0 70px rgba(222, 222, 222, 1), 0 0 80px rgba(255, 255, 255, 1), 0 0 100px rgba(255, 255, 255, 1), 0 0 110px rgba(255, 255, 255, 1);
 }
 </style>
