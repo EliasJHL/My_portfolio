@@ -4,10 +4,13 @@
     <div class="project">
       <h1>Discord Bot</h1>
       <img class="bot-img" alt="Atlanta" src="@/assets/atlantaVR.png">
-      <h3 class="description-discord-bot">Discord bot created for a community server, he's connected to a Database to stock the events, it have a website to add / edit / delete / view all of events</h3>
+      <h3 class="description-discord-bot">Discord bot created for a community server, he's connected to a Database to stock the events.
+        I've create a website to add, edit, delete & view all of events</h3>
+      <p class="languages">Python, NodeJs, MySQL, HTML, CSS</p>
     </div>
     <div class="project">
       <h1>Minecraft Server</h1>
+      <p class="languages">Panel Pterodactyl, Ubuntu Server, Java, HTML, CSS</p>
     </div>
     <div class="project">
       <h1>sokoban</h1>
@@ -25,6 +28,24 @@ export default {
 </script>
 
 <style>
+.description-discord-bot {
+  max-width: 90%;
+}
+
+.languages {
+  font-family: Ubuntu, serif;
+  max-width: 90%;
+  font-weight: bold;
+  color: #4f4f4f;
+}
+
+.project:hover .languages {
+  background-image: linear-gradient(147deg, #FFE53B, #FF2525);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
 .title {
   font-family: Ubuntu, serif;
   color: #ebecf3;
@@ -41,7 +62,7 @@ export default {
   margin: 5px;
   min-width: auto;
   max-width: 350px;
-  height: 350px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;

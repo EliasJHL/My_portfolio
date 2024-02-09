@@ -20,7 +20,7 @@ import Contact from './components/contact.vue'
       <Menu />
     </div>
     <div id="pp">
-      <img src="./assets/pp.png" alt="photo"/>
+      <img src="./assets/pp.png" alt="photo" onclick="window.scrollTo({top: 0, behavior: 'smooth'});"/>
     </div>
     <div id="hello">
       <HelloWorld msg="Hello !"/>
@@ -96,6 +96,7 @@ import Contact from './components/contact.vue'
   min-height: 750px;
   object-fit: cover;
   width: 147%;
+  max-width: 100%;
   height: 100%;
   max-height: 760px;
 }
@@ -108,6 +109,7 @@ import Contact from './components/contact.vue'
   display: flex;
   margin-left: -59px;
   margin-top: -40px;
+  cursor: pointer;
 }
 
 hr {

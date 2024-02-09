@@ -29,9 +29,9 @@ export default {
   color: white;
 }
 
-@media (max-width: 900px) {
-  .mail {
-    font-size: 15px;
+@media (max-width: 400px) {
+  .mail h2{
+    font-size: 18px;
     display: flex;
     flex-direction: column;
     align-items: center;

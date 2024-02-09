@@ -86,6 +86,7 @@ export default {
 .zone {
   position: fixed;
   height: 100%;
+  max-height: 100%;
   width: 70px;
   top: 0;
   left: 0;

@@ -42,7 +42,7 @@ export default {
 
 .Button-git button:hover img {
   transform: scale(1.05);
-  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 1)) drop-shadow(0 0 20px rgba(255, 255, 255, 1));
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5)) drop-shadow(0 0 20px rgba(255, 255, 255, 0.5));
 }
 
 .Button-link {
@@ -69,6 +69,6 @@ export default {
 
 .Button-link button:hover img {
   transform: scale(1.05);
-  filter: drop-shadow(0 0 10px rgb(0, 143, 255)) drop-shadow(0 0 20px rgb(0, 143, 255));
+  filter: drop-shadow(0 0 10px rgba(0, 143, 255, 0.74)) drop-shadow(0 0 20px rgba(0, 143, 255, 0.76));
 }
 </style>
