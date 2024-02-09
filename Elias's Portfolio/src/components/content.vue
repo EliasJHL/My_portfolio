@@ -2,10 +2,12 @@
   <p class="title">My Projects.</p>
   <div id="Cards">
     <div class="project">
-      <h1>my_printf</h1>
+      <h1>Discord Bot</h1>
+      <img class="bot-img" alt="Atlanta" src="@/assets/atlantaVR.png">
+      <h3 class="description-discord-bot">Discord bot created for a community server, he's connected to a Database to stock the events, it have a website to add / edit / delete / view all of events</h3>
     </div>
     <div class="project">
-      <h1>my_ls</h1>
+      <h1>Minecraft Server</h1>
     </div>
     <div class="project">
       <h1>sokoban</h1>
@@ -34,11 +36,11 @@ export default {
   position: relative;
   background: #343434;
   overflow: hidden;
-  margin: 10px;
   border-radius: 8px;
-  width: 25%;
+  width: 50%;
+  margin: 5px;
   min-width: auto;
-  max-width: 300px;
+  max-width: 350px;
   height: 350px;
   display: flex;
   flex-direction: column;
@@ -47,6 +49,11 @@ export default {
       0 0.1rem 0.2rem #00000033,
       0 0.1rem 0.2rem #0000004d,
       0 0.2rem 1.5rem #00000066;
+  cursor: pointer;
+}
+
+.bot-img {
+  width: 240px;
 }
 
 #Cards div h1 {
@@ -56,19 +63,22 @@ export default {
 }
 
 #Cards div:hover {
-  background: #2a2a2a;
-  transform: scale(0.98);
-  box-shadow: 0 0 30px 1px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 15px 1px rgba(255, 255, 255, 0.5);
 }
 
 #Cards {
+  justify-content: center;
   border-radius: 8px;
   position: relative;
   overflow: hidden;
   display: flex;
-  justify-content: space-between;
   animation: loop 2s linear infinite;
   flex-wrap: wrap;
+}
+
+.description-discord-bot {
+  font-family: Ubuntu, serif;
+  color: #ebecf3;
 }
 
 @media (max-width: 600px) {

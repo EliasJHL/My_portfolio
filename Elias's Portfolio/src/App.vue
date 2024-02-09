@@ -4,10 +4,17 @@ import Menu from './components/Slidebar.vue'
 import Buttons from './components/Social.vue'
 import Content from './components/website.vue'
 import Cards from './components/content.vue'
+import About from './components/about.vue'
+import Contact from './components/contact.vue'
 </script>
 
 <template>
   <!---<div id="cursor"></div>--->
+  <div class="video">
+    <video id="video-bg" preload="auto" autoplay playsinline muted loop poster>
+    <source src="https://wyld.studio/wp-content/uploads/2023/09/code-kueste.mp4" type="video/mp4">
+  </video>
+  </div>
   <div id="Intrduction">
     <div id="Menu">
       <Menu />
@@ -25,13 +32,30 @@ import Cards from './components/content.vue'
   <div id="website">
     <Content />
   </div>
+  <hr class="intr-line">
+  <div id="about">
+    <About ref="about"/>
+  </div>
   <hr>
   <div id="ProjectsCards">
     <Cards />
   </div>
+  <hr>
+  <div id="contact-form">
+    <Contact/>
+  </div>
 </template>
 
 <style>
+.intr-line {
+  margin-top: 350px;
+}
+
+#video-bg {
+  opacity:0.45;
+  mix-blend-mode:inherit;
+}
+
 #Intrduction {
   text-align: center;
   margin-left: 70px;
@@ -54,6 +78,26 @@ import Cards from './components/content.vue'
 
 #Menu {
   margin-top: 0;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+  background-color: #000000;
+  filter: blur(8px);
+}
+
+.video video {
+  min-height: 750px;
+  object-fit: cover;
+  width: 147%;
+  height: 100%;
+  max-height: 760px;
 }
 
 #pp img{

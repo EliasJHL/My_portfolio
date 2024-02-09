@@ -1,16 +1,36 @@
 <template>
   <div class="zone">
     <div class="hello">
-      <button class="clickable1">About.</button>
-      <button class="clickable2">Projects</button>
-      <button class="clickable3">Contact</button>
+      <button class="clickable1" @click="scrollToAbout">About.</button>
+      <button class="clickable2" @click="scrollToProject">Projects</button>
+      <button class="clickable3" @click="scrollToContact">Contact</button>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Slidebar'
+  name:'Slidebar',
+  methods: {
+    scrollToAbout() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    },
+    scrollToContact() {
+      window.scrollTo({
+        top: 5000,
+        behavior: 'smooth'
+      });
+    },
+    scrollToProject() {
+      window.scrollTo({
+        top: 750,
+        behavior: 'smooth'
+      });
+    }
+  }
 }
 </script>
 
@@ -65,10 +85,11 @@ export default {
 
 .zone {
   position: fixed;
-  height: 100vh;
+  height: 100%;
   width: 70px;
   top: 0;
   left: 0;
+  bottom: 0;
   background-color: #080808;
   display: flex;
   justify-content: center;

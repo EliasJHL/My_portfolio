@@ -20,7 +20,7 @@ export default {
 <style>
 .Button-git {
   position: fixed;
-  bottom: 0;
+  bottom: 1px;
   left: 0;
   width: 30px;
   height: 30px;

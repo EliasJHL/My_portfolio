@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <span class="custom-size">Hey, I'm Elias</span>
-    <span class="slogan">First year EPITECH student</span>
+    <span class="slogan">First year <span class="epitech">{EPITECH}</span> student</span>
   </div>
 </template>
 
@@ -12,12 +12,20 @@ export default {
 </script>
 
 <style>
+.epitech {
+  background-image: linear-gradient(147deg, #00d9ff, #004aec);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
 .hello {
   font-family: Ubuntu, serif;
   color: #ebecf3;
 }
 
 .custom-size {
+  margin-top: 160px;
   font-size: 60px;
   font-weight: bold;
 }
@@ -38,7 +46,7 @@ export default {
   box-sizing: content-box;
   animation-name: typing, blink-start, blink-end;
   animation-duration: 5s, 1s, 1s;
-  animation-timing-function: steps(27, end), linear, linear;
+  animation-timing-function: steps(30, end), linear, linear;
   animation-delay: 0s, 1s, 2s;
   animation-iteration-count: 1, 1, infinite;
   animation-direction: normal;
@@ -47,7 +55,7 @@ export default {
 
 @keyframes typing {
   from { width: 0; }
-  to   { width: 22ch; }
+  to   { width: 23ch; }
 }
 
 @keyframes blink-start {
