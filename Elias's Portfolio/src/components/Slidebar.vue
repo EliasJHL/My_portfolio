@@ -26,7 +26,7 @@ export default {
     },
     scrollToProject() {
       window.scrollTo({
-        top: 750,
+        top: 1150,
         behavior: 'smooth'
       });
     }
