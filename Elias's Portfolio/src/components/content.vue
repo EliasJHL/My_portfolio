@@ -10,7 +10,7 @@
     </div>
     <div class="project">
       <h1>Minecraft Server</h1>
-      <p class="languages">Panel Pterodactyl, Ubuntu Server, Java, HTML, CSS</p>
+      <p class="languages">Panel Pterodactyl, Ubuntu Server, Java, HTML, CSS, SpigotMC</p>
     </div>
     <div class="project">
       <h1>sokoban</h1>
