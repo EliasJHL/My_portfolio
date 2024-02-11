@@ -1,7 +1,7 @@
 <template>
   <div class="contact-message">
     <h1 class="title-contact">Contact Me.</h1>
-    <p>You can find me in Linkedin or you can complete the contact form !</p>
+    <p>You can find me in Linkedin or you can complete the contact form !<br><br><span class="mail-cont">HEliasJosue@protonmail.com</span></p>
   </div>
   <div class="contact-link">
     <h1>Contact Form</h1>
@@ -33,6 +33,10 @@ export default {
 </script>
 
 <style>
+.mail-cont {
+  color: #0073b0;
+  font-size: 110%;
+}
 
 .contact-message h1 {
   margin-top: 50px;
@@ -49,7 +53,7 @@ export default {
   margin: 5% auto;
   padding: 5px;
   background-color: rgba(54, 54, 54, 0.35);
-  width: 50%;
+  width: 40%;
   transform: translateX(30px);
 }
 
@@ -118,12 +122,12 @@ button[type="submit"] {
     color: #008dff;
   }
   .contact-link {
-    padding: 5px;
+    padding: 1px;
     border-radius: 10px;
     margin: 5% auto;
     background-color: rgba(54, 54, 54, 0.35);
     width: 80%;
-    transform: translateX(30px);
+    transform: translateX(35px);
   }
 }
 </style>
