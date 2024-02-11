@@ -90,6 +90,7 @@ export default {
       0 0.1rem 0.2rem #0000004d,
       0 0.2rem 1.5rem #00000066;
   cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .bot-img {
@@ -103,7 +104,7 @@ export default {
 }
 
 #Cards div:hover {
-  box-shadow: 0 0 15px 1px rgba(255, 255, 255, 0.5);
+  //box-shadow: 0 0 15px 1px rgba(255, 255, 255, 0.5);
 }
 
 #Cards {

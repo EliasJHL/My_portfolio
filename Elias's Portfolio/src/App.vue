@@ -9,7 +9,7 @@ import Contact from './components/contact.vue'
 </script>
 
 <template>
-  <!---<div id="cursor"></div>--->
+  <div id="cursor"></div>
   <div class="video">
     <video id="video-bg" preload="auto" autoplay playsinline muted loop poster>
     <source src="https://wyld.studio/wp-content/uploads/2023/09/code-kueste.mp4" type="video/mp4">
@@ -126,6 +126,7 @@ hr {
   width: 20px;
   height: 20px;
   opacity: 1;
+  z-index: -1;
   box-shadow: 0 0 50px rgba(255, 255, 255, 1), 0 0 60px rgba(255, 255, 255, 1), 0 0 70px rgba(222, 222, 222, 1), 0 0 80px rgba(255, 255, 255, 1), 0 0 100px rgba(255, 255, 255, 1), 0 0 110px rgba(255, 255, 255, 1);
 }
 </style>

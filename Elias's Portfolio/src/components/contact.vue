@@ -1,7 +1,7 @@
 <template>
   <div class="contact-message">
     <h1 class="title-contact">Contact Me.</h1>
-    <p>Hey, send me an email if you want to connect! Additionally, you can find me on LinkedIn , shoot a message if you have to!</p>
+    <p>You can find me in Linkedin or you can complete the contact form !</p>
   </div>
   <div class="contact-link">
     <h1>Contact Form</h1>
@@ -33,29 +33,37 @@ export default {
 </script>
 
 <style>
-.contact-link {
-  border-style: ridge;
-  border-width: 2px;
-  border-color: #081ca8;
-  border-radius: 10px;
-  margin: 5% auto;
-  background-color: rgba(0, 29, 134, 0.35);
-  width: 50%;
-  transform: translateX(30px);
+
+.contact-message h1 {
+  margin-top: 50px;
+  font-size: 40px;
 }
 
-.contact-link h1 {
+.contact-message p {
+  margin-top: 50px;
+}
+
+.contact-link {
+  backdrop-filter: blur(50px);
+  border-radius: 10px;
+  margin: 5% auto;
+  padding: 5px;
+  background-color: rgba(54, 54, 54, 0.35);
+  width: 50%;
+  transform: translateX(30px);
 }
 
 input[type="text"], input[type="email"], textarea {
   display: block;
   margin: 0 auto;
   width: 90%;
-  border: 1px solid #ccc;
+  background-color: rgba(66, 66, 66, 0.51);
+  border: 1px solid rgba(66, 66, 66, 0.51);
   font-size: 1rem;
   padding: 6px 10px;
   border-radius: 4px;
   max-width: 90%;
+  color: #ebecf3;
 }
 
 label {
@@ -82,21 +90,15 @@ button[type="submit"] {
   display: block;
   margin: 50px auto;
   max-width: 50%;
-  background-color: rgb(67 56 202);
+  background-color: rgba(67, 56, 202, 0.72);
   color: white;
   font-size: 0.8rem;
   border: none;
   border-radius: 4px;
   padding: 8px 12px;
   width: 200px;
+  height: 40px;
   font-weight: 800;
-}
-
-.mail {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #008dff;
 }
 
 .contact-message {
@@ -116,12 +118,10 @@ button[type="submit"] {
     color: #008dff;
   }
   .contact-link {
-    border-style: ridge;
-    border-width: 2px;
-    border-color: #081ca8;
+    padding: 5px;
     border-radius: 10px;
     margin: 5% auto;
-    background-color: rgba(0, 29, 134, 0.35);
+    background-color: rgba(54, 54, 54, 0.35);
     width: 80%;
     transform: translateX(30px);
   }
