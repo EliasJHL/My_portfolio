@@ -21,6 +21,8 @@ import Contact from './components/contact.vue'
     </div>
     <div id="pp">
       <img src="./assets/pp.png" alt="photo" onclick="window.scrollTo({top: 0, behavior: 'smooth'});"/>
+      <form>
+      </form>
     </div>
     <div id="hello">
       <HelloWorld msg="Hello !"/>
@@ -117,6 +119,17 @@ hr {
   background-color: rgba(255, 255, 255, 0.2);
   border: none;
   margin-top: 20px;
+}
+
+#pp form {
+  box-shadow: 0 0 15px greenyellow;
+  border-radius: 100%;
+  position: fixed;
+  background-color: #9aff00;
+  width: 15px;
+  height: 15px;
+  margin-top: -15px;
+  margin-left: -34px;
 }
 
 #cursor {

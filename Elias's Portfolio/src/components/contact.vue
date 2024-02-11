@@ -44,7 +44,7 @@ export default {
 }
 
 .contact-link {
-  backdrop-filter: blur(50px);
+  backdrop-filter: blur(80px);
   border-radius: 10px;
   margin: 5% auto;
   padding: 5px;
