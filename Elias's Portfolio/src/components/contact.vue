@@ -103,6 +103,7 @@ button[type="submit"] {
   width: 200px;
   height: 40px;
   font-weight: 800;
+  cursor: pointer;
 }
 
 .contact-message {
