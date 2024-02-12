@@ -9,8 +9,7 @@
           software development.<br><br>I've already built a solid foundation, working on personal projects like Discord
           bots and
           games on Unity. My curiosity has led me to explore technologies such as Unreal, Unity, Roblox Studio, Godot,
-          and
-          CSFML.<br><br>
+          and CSFML.<br><br>
 
           I'm seeking opportunities to enhance my skills as a full-stack developer. Engaged in projects that highlight
           specific technologies, I'm open to interesting collaborations. Outside of coding, I enjoy collecting
