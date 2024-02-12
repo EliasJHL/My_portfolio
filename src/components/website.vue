@@ -3,7 +3,7 @@
     <p>
       Passionate about Full Stack Development. Scroll down to learn more.
     </p>
-    <button class="resume-btn" onclick="window.open('/CV_Elias_HAJJAR.pdf', '_blank')">
+    <button class="resume-btn" onclick="window.open('./CV_Elias_HAJJAR.pdf', '_blank')">
       <span>my resume</span>
     </button>
   </div>
