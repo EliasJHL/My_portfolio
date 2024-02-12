@@ -97,14 +97,15 @@ export default {
   font-family: Ubuntu, serif;
   color: #ebecf3;
   border-radius: 5px;
-  border: 1px solid #3C1C78;
-  background-color: rgba(22, 1, 62, 0.52);
+  border: 1px solid #ffffff;
+  background-color: rgba(51, 51, 51, 0.52);
   width: 40%;
   height: 30px;
+  transition: border 0.3s ease-in-out;
 }
 
 .selector1:hover {
-  border: 2px solid #4e3975;
+  border: 2px solid #3b3b3b;
 }
 
 .languages {
