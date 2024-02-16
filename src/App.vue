@@ -142,4 +142,18 @@ hr {
   z-index: -1;
   box-shadow: 0 0 50px rgba(255, 255, 255, 1), 0 0 60px rgba(255, 255, 255, 1), 0 0 70px rgba(222, 222, 222, 1), 0 0 80px rgba(255, 255, 255, 1), 0 0 100px rgba(255, 255, 255, 1), 0 0 110px rgba(255, 255, 255, 1);
 }
+
+@media (max-width: 600px) {
+  #pp img {
+    margin-left: -70px;
+    height: 35px;
+    width: 35px;
+  }
+  #pp form {
+    width: 10px;
+    height: 10px;
+    margin-top: -12px;
+    margin-left: -40px;
+  }
+}
 </style>

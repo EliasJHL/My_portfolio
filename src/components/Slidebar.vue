@@ -96,4 +96,15 @@ export default {
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 600px) {
+  .zone {
+    width: 50px;
+  }
+
+  .hello {
+    margin-bottom: 60px;
+    //background-color: #ebecf3;
+  }
+}
 </style>

@@ -73,4 +73,16 @@ export default {
   transform: scale(1.05);
   filter: drop-shadow(0 0 10px rgba(0, 143, 255, 0.74)) drop-shadow(0 0 20px rgba(0, 143, 255, 0.76));
 }
+
+@media (max-width: 600px) {
+  .Button-link {
+    margin: 5px;
+    bottom: 5px;
+  }
+
+  .Button-git {
+    margin: 5px;
+    bottom: 5px;
+  }
+}
 </style>
