@@ -94,7 +94,7 @@ export default {
 }
 
 .selector1 {
-  font-family: Ubuntu, serif;
+  font-family: 'Ubuntu', serif;
   color: #ebecf3;
   border-radius: 5px;
   border: 1px solid #ffffff;
@@ -109,7 +109,7 @@ export default {
 }
 
 .languages {
-  font-family: Ubuntu, serif;
+  font-family: 'Ubuntu', serif;
   max-width: 90%;
   font-weight: bold;
   color: #4f4f4f;
@@ -131,7 +131,7 @@ export default {
 
 .project {
   position: relative;
-  background: #343434;
+  background: rgba(52, 52, 52, 0.63);
   overflow: hidden;
   border-radius: 8px;
   width: 50%;
@@ -154,7 +154,7 @@ export default {
 }
 
 #Cards div h1 {
-  font-family: Ubuntu, serif;
+  font-family: 'Ubuntu', serif;
   color: #ebecf3;
   text-align: center;
 }
@@ -175,7 +175,7 @@ export default {
 }
 
 .description-discord-bot {
-  font-family: Ubuntu, serif;
+  font-family: 'Ubuntu', serif;
   color: #ebecf3;
 }
 

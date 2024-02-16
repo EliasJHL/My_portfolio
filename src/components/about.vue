@@ -138,7 +138,7 @@ export default {
 .title-lang {
   color: #ebecf3;
   width: fit-content;
-  font-family: Ubuntu, serif;
+  font-family: 'Ubuntu', serif;
 }
 
 .badges-container {
@@ -150,7 +150,7 @@ export default {
   width: 80%;
   text-align: center;
   color: #ebecf3;
-  font-family: Ubuntu, serif;
+  font-family: 'Ubuntu', serif;
   max-width: 100%;
 }
 
@@ -213,7 +213,7 @@ export default {
 }
 
 .project-title {
-  font-family: Ubuntu, serif;
+  font-family: 'Ubuntu', serif;
   color: #ebecf3;
   font-weight: bold;
   font-size: 40px;
@@ -228,7 +228,7 @@ export default {
   text-align: center;
   max-width: 45%;
   color: #ebecf3;
-  font-family: Ubuntu, serif;
+  font-family: 'Ubuntu', serif;
 }
 
 @media only screen and (max-width: 767px) {

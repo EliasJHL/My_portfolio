@@ -20,7 +20,7 @@ export default {
 }
 
 .hello {
-  font-family: Ubuntu, serif;
+  font-family: 'Ubuntu', serif;
   color: #ebecf3;
 }
 
@@ -31,7 +31,7 @@ export default {
 }
 
 .slogan {
-  font-family: Ubuntu, serif;
+  font-family: 'Ubuntu', serif;
   color: #ebecf3;
   margin-top: 15px;
   position: relative;

@@ -17,7 +17,7 @@ export default {
 
 <style>
 #presentation {
-  font-family: Lilita One, cursive;
+  font-family: 'Lilita One', cursive;
   text-align: center;
   margin: 40px auto;
   width: 50%;

@@ -73,7 +73,7 @@ input[type="text"], input[type="email"], textarea {
 label {
   margin-left: 3%;
   margin-top: 25px;
-  font-family: Ubuntu ,serif;
+  font-family: 'Ubuntu', serif;
   color: #ebecf3;
   display: block;
   margin-bottom: 4px;
@@ -82,7 +82,7 @@ label {
 }
 
 h1 {
-  font-family: Ubuntu, serif;
+  font-family: 'Ubuntu', serif;
   color: #ebecf3;
   text-align: center;
   font-size: 1.8rem;
@@ -110,7 +110,7 @@ button[type="submit"] {
   margin-left: 70px;
   max-width: 95%;
   text-align: center;
-  font-family: Ubuntu, serif;
+  font-family: 'Ubuntu', serif;
   color: white;
 }
 
