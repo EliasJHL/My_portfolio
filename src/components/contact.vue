@@ -1,7 +1,7 @@
 <template>
   <div class="contact-message">
     <h1 class="title-contact">Contact Me.</h1>
-    <p>You can find me in Linkedin or you can complete the contact form !<br><br><span class="mail-cont">HEliasJosue@protonmail.com</span></p>
+    <p>You can find me in Linkedin or you can complete the contact form !<br><br><span class="mail-cont">contact@eliashajjar.fr</span></p>
   </div>
   <div class="contact-link">
     <h1>Contact Form</h1>
