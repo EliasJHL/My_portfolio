@@ -1,7 +1,7 @@
 <template>
   <div class="zone">
     <div class="hello">
-      <button class="clickable1" @click="scrollToAbout">keke</button>
+      <button class="clickable1" @click="scrollToAbout">About.</button>
       <button class="clickable2" @click="scrollToProject">Projects</button>
       <button class="clickable3" @click="scrollToContact">Contact</button>
     </div>
