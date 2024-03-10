@@ -1,0 +1,216 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+\vspace{1pt}
+
+\begin{center}
+    \textbf{\Huge \scshape Elias Josué HAJJAR LLAUQUEN} \\ \vspace{1pt}
+    \small 06 12 53 09 04 $|$ \href{mailto:heliasjosue@protonmail.com}{\underline{HEliasJosue@protonmail.com}} $|$ 
+    \href{https://github.com/eliasjhl}{\underline{github.com/eliasjhl}} $|$
+    \href{https://eliashajjar.fr}{\underline{eliashajjar.fr}}
+\end{center}
+
+\vspace{1pt}
+%-----------EDUCATION-----------
+\section{Éducation}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Lycée Pablo Picasso}{Perpignan, France}
+      {Baccalauréat STI2D - Spécialité SIN (systèmes d'information et numérique)}{Sep. 2021 - Juin 2023}
+    \resumeSubheading
+      {Epitech}{Montpellier, France}
+      {Expert en Ingénierie Logiciel et Expert en Technologies de l'information}{Sep. 2023 -- Juil. 2028}
+  \resumeSubHeadingListEnd
+
+\vspace{1pt}
+%-----------EXPERIENCE-----------
+\section{Expérience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Fondateur et administrateur de serveur Minecraft}{June 2020 -- Déc. 2022}
+      {Projet personnel}{}
+      \resumeItemListStart
+        \resumeItem{Création et maintenance de plusieurs serveurs reliés entre eux (BungeeCord) et hébergés sur des plateformes différentes (OVH, AWS).}
+        \resumeItem{Gestion d'une équipe de modérateurs pour garantir un environnement de jeu convivial et sécurisé.}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Stage d'observation de 3ème}{Fév. 2020 -- Fév. 2020}
+      {Ecobat Energie}{Perpignan, France}
+      \resumeItemListStart
+        \resumeItem{Communication avec les clients au sujet des énérgies renouvlables}
+        \resumeItem{Mise en place de solutions et appreils éco-responables}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+\vspace{1pt}
+%-----------PROJECTS-----------
+\section{Projets}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{LibC} $|$ \emph{Librarie C, UNIX}}{Oct. 2023 -- Déc. 2023}
+          \resumeItemListStart
+            \resumeItem{Recréation des fonctions de la LibC dans le cadre des projets Epitech, en équipe et en solo}
+            \resumeItem{Gestion d'équipes avec des outils tels que : Linear, GitHub, GitHub Desktop}
+            \resumeItem{Visualized GitHub data to show collaboration}
+            \resumeItem{Used Celery and Redis for asynchronous tasks}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Discord Event bot} $|$ \emph{Github, Flask, Python, Html, Css, sqlite, VueJs}}{Déc. 2023 -- Présent}
+          \resumeItemListStart
+            \resumeItem{Création d'un bot discord événementielle relié via une API développé en Python utilisant Flask}
+            \resumeItem{L'API est relié à la base de données pour que la gestion puisse se faire sur le siteweb et avec le bot discord}
+            \resumeItem{Implementation de bot discord sur un serveur communautaire de plus de 400 membres}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Jeux Unity} $|$ \emph{Unity, GitHub, C\#}}{May 2019 -- Déc. 2022}
+          \resumeItemListStart
+            \resumeItem{Création de plusieurs jeu en C\# utilisant Unity comme moteur graphique.}
+            \resumeItem{TikTokGame : Jeu intéractif utilisant une API non officielle permettant de créer de lives ou les viewers peuvent intéragir}
+            \resumeItem{Création également de plusieurs jeu platformer 2D}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Portfolio} $|$ \emph{VueJs, Html, Css, JavaScript, Netlify (Déploiment)}}{Jan. 2024 -- Fév. 2024}
+          \resumeItemListStart
+            \resumeItem{Création de mon portfolio personnel pour mettre en avant mes projets personnels}
+            \resumeItem{Déploiment du portfolio graĉe à Netlify \& mise en place d'un DNS avec une redirection}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+\vspace{1pt}
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Compétences techniques}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Langages}{: Python, C, SQL (Postgres), JavaScript, HTML/CSS} \\
+     \textbf{Frameworks}{: Node.js, Flask, Vuejs} \\
+     \textbf{Outils}{: Git, Docker, VS Code, Visual Studio, PyCharm, IntelliJ, Clion, RustRover, Pterodactyl} \\
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
